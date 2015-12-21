@@ -19,6 +19,7 @@
         <module>annotations-processors</module>
         <module>annotations-tests</module>
         <module>chat-server</module>
+        <module>chat-client</module>
     </modules>
 
     <build>
