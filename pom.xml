@@ -16,6 +16,7 @@
 
     <modules>
         <module>annotations</module>
+        <module>annotations-processors</module>
     </modules>
 
     <build>
