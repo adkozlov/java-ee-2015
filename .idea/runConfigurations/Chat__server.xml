@@ -1,0 +1,22 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Chat: server" type="Application" factoryName="Application">
+    <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+      <pattern>
+        <option name="PATTERN" value="ru.spbau.kozlov.chat.server.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <option name="MAIN_CLASS_NAME" value="ru.spbau.kozlov.chat.server.ChatServer" />
+    <option name="VM_PARAMETERS" value="-Djavax.net.ssl.keyStore=serverKeyStore.key -Djavax.net.ssl.keyStorePassword=qwerty -Djavax.net.ssl.trustStore=serverTrustStore.key -Djavax.net.ssl.trustStorePassword=qwerty -Djavax.net.debug=ssl -Dweblogic.security.SSL.protocolVersion=SSL3" />
+    <option name="PROGRAM_PARAMETERS" value="1234" />
+    <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/chat-server/resources" />
+    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+    <option name="ALTERNATIVE_JRE_PATH" />
+    <option name="ENABLE_SWING_INSPECTOR" value="false" />
+    <option name="ENV_VARIABLES" />
+    <option name="PASS_PARENT_ENVS" value="true" />
+    <module name="chat-server" />
+    <envs />
+    <method />
+  </configuration>
+</component>
