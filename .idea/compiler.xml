@@ -28,8 +28,23 @@
         </processorPath>
         <module name="annotations-tests" />
       </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="annotations" />
+        <module name="annotations-processors" />
+        <module name="chat-client" />
+        <module name="chat-server" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="annotations" target="1.8" />
+      <module name="annotations-processors" target="1.8" />
+      <module name="annotations-tests" target="1.8" />
+      <module name="chat-client" target="1.8" />
+      <module name="chat-server" target="1.8" />
       <module name="java-ee" target="1.8" />
     </bytecodeTargetLevel>
   </component>
